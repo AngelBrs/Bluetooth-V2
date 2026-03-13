@@ -1,0 +1,30 @@
+{
+    "name": "bluetoothV2",
+    "version": "1.0.0",
+    "description": "Full Bluetooth V2 custom blocks for micro:bit — init, rename, advertise, send/receive data, and connection events.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microbit-bluetooth": "github:microsoft/pxt-bluetooth"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "icon.png"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "targetVersions": {
+        "target": ">=6.0.0"
+    },
+    "yotta": {
+        "config": {
+            "MICROBIT_BLE_ENABLED": 1
+        }
+    }
+}
