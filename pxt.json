@@ -1,0 +1,14 @@
+{
+    "name": "pxt-bluetoothV2",
+    "version": "0.0.1",
+    "description": "Full Bluetooth V2 custom blocks for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "public": true
+}
